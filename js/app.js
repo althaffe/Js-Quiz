@@ -84,7 +84,7 @@ function showQuestion(){
 
 (function ls(){
 	for (var j = 1; j<=allQuestions.length;j++) {
-			list+= '<li><a href="#fakelink">' + j + '</a></li>';
+			list+= '<li><a href="#">' + j + '</a></li>';
 	}
 })();
 function pr(){
