@@ -1,0 +1,110 @@
+body{
+	background:#1ABC9C;
+}
+
+.container {
+	width: 700px;
+	margin: 0 auto;
+}
+
+.quiz {
+	width: 100%;
+	height: 500px;
+	background: #ECF0F1;
+	border-radius: 5px;
+	padding:20px; 
+}
+
+h1 {
+	color: #ECF0F1;
+}
+ 
+.quiz h4 {
+	font-weight: lighter;
+	display: inline-block;
+}
+
+.num{
+	margin-right: 10px;
+	padding: 0px 5px;
+	display: inline-block;
+	float: left;
+	font-size: 60px;
+}
+
+form{
+	padding-top: 10px;
+}
+
+.radio {
+	font-size: 25px;
+	left:75px;
+    width: 300px;
+}
+
+button {
+	width:200px;
+	margin-left: 80px;
+	margin-top: 20px;
+}
+
+button span {
+	float: right;
+}
+
+.paginate{
+	position: relative;
+	display: block;
+	margin-left: 25%;
+	margin-top: 50px;
+}
+
+.paginate ul {
+	list-style-type: none;
+}
+
+.paginate ul li{
+	display: inline;
+	margin-right: 40px;
+}
+
+.paginate ul li a{
+	color: inherit;
+}
+
+.paginate ul li a:hover{
+	color: #1ABC9C;
+
+}
+
+.active {
+
+}
+
+.quiz h2 {
+	color: #16A085;
+	font-weight: 200;
+}
+
+.quiz img {
+	width:150px;
+	height: 170px;
+	margin-left: 80px;
+	display: inline-block;
+	float: left;
+}
+
+.progress-bar {
+	border-right: 1px solid #ECF0F1;
+}
+
+.progress {
+	margin-top:50px;
+}
+
+.restart {
+	font-size: 25px;
+	color: #16A085;
+	font-weight: 200;
+	margin-top: 30px;
+}
